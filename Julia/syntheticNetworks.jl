@@ -82,7 +82,7 @@ assortativity(g)
 
 # for plotting
 
-open("synthetic_networks/julia_networks.txt", "a") do io
+open("julia_networks.txt", "a") do io
     for i in 1:1000
         graph = synthetic_network(n, n0, p, q, r, s, u)
         node_degree = average_node_degree(graph)
