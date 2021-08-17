@@ -1,0 +1,28 @@
+connected:True
+undirected:True
+* mean degree kbar:3.0
+ratio r{k>kbar}:0.35
+avg. neighbour's degree distribution:2.8...<k>=4.206666666666666...6.0
+degree - degree frequency - avg. neighbour's degree:    1-4-5.25
+    2-5-4.7
+    3-4-4.0
+    4-3-3.6666666666666665
+    5-2-2.9
+    6-2-3.4166666666666665
+s.p. betweenness distribution:0.0...<b>=16.2...107.75000000000001
+* average shortest path length:2.705263157894737
+* network transistivity:0.35294117647058826
+* degree assortativity:-0.385681293302541
+Fiedler eigenvalue lambda2:(0.16318416865501525+0j)
+number of dead ends:4
+number of nodes adjacent to dead trees (approx.):0
+number of detour nodes:5
+number of edges:IGRAPH U--- 20 30 --
++ edges:
+ 0 --  1  5  6 12 14       7 --  3  8  9 10 11 18   14 --  0  4
+ 1 --  0  6 15             8 --  2  4  5  7 17 19   15 --  1  4
+ 2 --  4  8 16 17          9 --  3  7               16 --  2
+ 3 --  7  9 10 11         10 --  3  7 11            17 --  2  8
+ 4 --  2  8 13 14 15      11 --  3  7 10            18 --  7
+ 5 --  0  6  8 12         12 --  0  5               19 --  8
+ 6 --  0  1  5            13 --  4
