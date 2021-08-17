@@ -3,8 +3,8 @@ Comparison of the packages SyntheticNetworks.jl and SyntheticNetworks-python.py
 
 To get the ensemble of 1000 networks in Julia and Python, first run the julia file Julia/syntheticNetworks.jl, which writes the statistics to the text file julia_networks.txt. Afterwards the bash script must be executed in the Python folder: 
 
-chmod u+x bash.sh
-./bash.sh
+<p> chmod u+x bash.sh <br>
+./bash.sh <p>
 
 which writes the data to the text file python_networks.txt. 
 
